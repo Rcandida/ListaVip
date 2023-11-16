@@ -9,9 +9,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.edu.unichristus.listavip.R;
+import br.edu.unichristus.listavip.controller.PessoaController;
 import br.edu.unichristus.listavip.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
+
+    PessoaController controller;
 
     Pessoa pessoa;
 
@@ -28,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        controller = new PessoaController();
+        controller.toString();
 
         pessoa = new Pessoa();
 
@@ -78,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setCurso(editCurso.getText().toString());
                 pessoa.setTelefone(editTelefone.getText().toString());
                 Toast.makeText(MainActivity.this, "Salvo "+pessoa.toString(), Toast.LENGTH_LONG).show();
+
+                controller.salvar(pessoa);
             }
         });
     }
