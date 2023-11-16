@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import br.edu.unichristus.listavip.R;
+import br.edu.unichristus.listavip.database.ListaDB;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -25,6 +26,9 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+
+                ListaDB db = new ListaDB(SplashActivity.this);
+
                 Intent telaPrincipal = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(telaPrincipal);
                 finish();
