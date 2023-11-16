@@ -1,28 +1,28 @@
 package br.edu.unichristus.listavip.model;
 
-public class Pessoa {
-    private String primeiroNome;
-    private String sobrenome;
+public class Aluno {
+    private String nome;
+    private String matricula;
     private String curso;
     private String telefone;
 
-    public Pessoa() {
+    public Aluno() {
     }
 
-    public String getPrimeiroNome() {
-        return primeiroNome;
+    public String getNome() {
+        return nome;
     }
 
-    public void setPrimeiroNome(String primeiroNome) {
-        this.primeiroNome = primeiroNome;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getSobrenome() {
-        return sobrenome;
+    public String getMatricula() {
+        return matricula;
     }
 
-    public void setSobrenome(String sobrenome) {
-        this.sobrenome = sobrenome;
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     public String getCurso() {
@@ -44,8 +44,8 @@ public class Pessoa {
     @Override
     public String toString() {
         return "Pessoa{" +
-                "primeiroNome='" + primeiroNome + '\'' +
-                ", sobrenome='" + sobrenome + '\'' +
+                "primeiroNome='" + nome + '\'' +
+                ", sobrenome='" + matricula + '\'' +
                 ", curso='" + curso + '\'' +
                 ", telefone='" + telefone + '\'' +
                 '}';

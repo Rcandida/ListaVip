@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/app_lista_vip"
+        android:text="@string/intencao_optativa"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
 
-    <EditText android:id="@+id/editPrimeiroNome"
+    <EditText android:id="@+id/editNome"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
@@ -34,18 +34,18 @@
         app:layout_constraintTop_toBottomOf="@+id/editTituloApp"
         android:autofillHints="NomeTeste" />
 
-    <EditText android:id="@+id/editSobrenome"
+    <EditText android:id="@+id/editMatricula"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
         android:layout_marginTop="26dp"
         android:ems="10"
-        android:hint="@string/txt_hint_sobrenome"
+        android:hint="@string/txt_hint_matricula"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editPrimeiroNome"
-        android:autofillHints="SobrenomeTeste" />
+        app:layout_constraintTop_toBottomOf="@+id/editNome"
+        android:autofillHints="MatriculaTeste" />
 
     <EditText android:id="@+id/editCurso"
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editSobrenome"
+        app:layout_constraintTop_toBottomOf="@+id/editMatricula"
         android:autofillHints="CursoTeste" />
 
     <EditText
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="71dp"
-        android:text="@string/txt_buton_limpar"
+        android:text="@string/txt_button_limpar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTelefone"

@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">ListaVip</string>
-    <string name="app_lista_vip">App Lista VIP</string>
+    <string name="intencao_optativa">Intenção de Disciplina Optativa</string>
     <string name="txt_hint_nome">Nome</string>
-    <string name="txt_hint_sobrenome">Sobrenome</string>
+    <string name="txt_hint_matricula">Matricula</string>
     <string name="txt_hint_curso">Curso</string>
     <string name="txt_hint_telefone">Telefone</string>
-    <string name="txt_buton_limpar">LIMPAR</string>
+    <string name="txt_button_limpar">LIMPAR</string>
     <string name="txt_button_salvar">SALVAR</string>
     <string name="txt_button_finalizar">FINALIZAR</string>
 
