@@ -2,6 +2,7 @@ package br.edu.unichristus.listavip.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,9 +10,14 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.edu.unichristus.listavip.R;
+import br.edu.unichristus.listavip.controller.PessoaController;
 import br.edu.unichristus.listavip.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
+
+    SharedPreferences preferences;
+    public static final String NOME_PREFERENCES = "pref_listavip";
+    PessoaController controller;
 
     Pessoa pessoa;
 
@@ -28,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        preferences = getSharedPreferences(NOME_PREFERENCES, 0);
+        SharedPreferences.Editor listaVip = preferences.edit();
+
+        controller = new PessoaController();
+        controller.toString();
 
         pessoa = new Pessoa();
 
@@ -78,6 +90,14 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setCurso(editCurso.getText().toString());
                 pessoa.setTelefone(editTelefone.getText().toString());
                 Toast.makeText(MainActivity.this, "Salvo "+pessoa.toString(), Toast.LENGTH_LONG).show();
+
+                listaVip.putString("primeiroNome", pessoa.getPrimeiroNome());
+                listaVip.putString("sobrenome", pessoa.getSobrenome());
+                listaVip.putString("curso", pessoa.getCurso());
+                listaVip.putString("telefone", pessoa.getTelefone());
+                listaVip.apply();
+
+                controller.salvar(pessoa);
             }
         });
     }
