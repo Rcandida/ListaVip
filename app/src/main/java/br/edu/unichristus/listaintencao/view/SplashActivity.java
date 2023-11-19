@@ -1,4 +1,4 @@
-package br.edu.unichristus.listavip.view;
+package br.edu.unichristus.listaintencao.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import br.edu.unichristus.listavip.R;
-import br.edu.unichristus.listavip.database.ListaDB;
+import br.edu.unichristus.listaintencao.R;
+import br.edu.unichristus.listaintencao.database.ListaDB;
 
 public class SplashActivity extends AppCompatActivity {
 

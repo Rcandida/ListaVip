@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ListaVip</string>
+    <string name="app_name">ListaIntencao</string>
     <string name="intencao_optativa" translatable="false">Intenção de Disciplina Optativa</string>
     <string name="txt_hint_nome" translatable="false">Nome</string>
     <string name="txt_hint_matricula" translatable="false">Matricula</string>

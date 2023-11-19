@@ -1,9 +1,9 @@
-package br.edu.unichristus.listavip.controller;
+package br.edu.unichristus.listaintencao.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.unichristus.listavip.model.Curso;
+import br.edu.unichristus.listaintencao.model.Curso;
 
 public class CursoController {
 

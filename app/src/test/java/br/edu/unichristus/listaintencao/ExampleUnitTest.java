@@ -1,4 +1,4 @@
-package br.edu.unichristus.listavip;
+package br.edu.unichristus.listaintencao;
 
 import org.junit.Test;
 

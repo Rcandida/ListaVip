@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "br.edu.unichristus.listavip"
+    namespace = "br.edu.unichristus.listaintencao"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "br.edu.unichristus.listavip"
+        applicationId = "br.edu.unichristus.listaintencao"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

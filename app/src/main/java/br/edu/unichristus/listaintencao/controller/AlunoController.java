@@ -1,16 +1,16 @@
-package br.edu.unichristus.listavip.controller;
+package br.edu.unichristus.listaintencao.controller;
 
 import android.content.SharedPreferences;
 
 import androidx.annotation.NonNull;
 
-import br.edu.unichristus.listavip.model.Aluno;
-import br.edu.unichristus.listavip.view.MainActivity;
+import br.edu.unichristus.listaintencao.model.Aluno;
+import br.edu.unichristus.listaintencao.view.MainActivity;
 
 public class AlunoController {
 
     SharedPreferences preferences;
-    SharedPreferences.Editor listaVip;
+    SharedPreferences.Editor listaIntencao;
     public static final String NOME_PREFERENCES = "preferences";
 
     public AlunoController(MainActivity mainActivity) {
@@ -30,11 +30,12 @@ public class AlunoController {
     }
 
     public void salvar(Aluno aluno) {
-        listaVip.putString("primeiroNome", aluno.getNome());
-        listaVip.putString("sobrenome", aluno.getMatricula());
-        listaVip.putString("curso", aluno.getCurso());
-        listaVip.putString("telefone", aluno.getTelefone());
-        listaVip.apply();
+        listaIntencao.putString("primeiroNome", aluno.getNome());
+        listaIntencao.putString("sobrenome", aluno.getMatricula());
+        listaIntencao.putString("curso", aluno.getCurso());
+        listaIntencao.putString("telefone", aluno.getTelefone());
+        listaIntencao.putString("disciplina").aluno.getDisciplina());
+        listaIntencao.apply();
 
     }
 

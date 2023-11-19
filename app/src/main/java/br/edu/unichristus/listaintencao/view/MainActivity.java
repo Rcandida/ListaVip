@@ -1,4 +1,4 @@
-package br.edu.unichristus.listavip.view;
+package br.edu.unichristus.listaintencao.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,11 +12,11 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import br.edu.unichristus.listavip.R;
-import br.edu.unichristus.listavip.controller.AlunoController;
-import br.edu.unichristus.listavip.model.Curso;
-import br.edu.unichristus.listavip.model.Aluno;
-import br.edu.unichristus.listavip.controller.CursoController;
+import br.edu.unichristus.listaintencao.R;
+import br.edu.unichristus.listaintencao.controller.AlunoController;
+import br.edu.unichristus.listaintencao.model.Curso;
+import br.edu.unichristus.listaintencao.model.Aluno;
+import br.edu.unichristus.listaintencao.controller.CursoController;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,10 +1,12 @@
-package br.edu.unichristus.listavip.model;
+package br.edu.unichristus.listaintencao.model;
 
 public class Aluno {
     private String nome;
     private String matricula;
     private String curso;
     private String telefone;
+
+
 
     public Aluno() {
     }

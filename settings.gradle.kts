@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ListaVip"
+rootProject.name = "ListaIntencao"
 include(":app")

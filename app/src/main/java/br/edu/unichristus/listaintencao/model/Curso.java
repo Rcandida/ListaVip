@@ -1,4 +1,4 @@
-package br.edu.unichristus.listavip.model;
+package br.edu.unichristus.listaintencao.model;
 
 public class Curso {
 
