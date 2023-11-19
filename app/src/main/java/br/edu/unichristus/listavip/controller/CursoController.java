@@ -36,5 +36,3 @@ public class CursoController {
         return dados;
     }
 }
-
-

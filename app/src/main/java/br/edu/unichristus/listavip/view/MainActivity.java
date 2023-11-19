@@ -85,9 +85,9 @@ public class MainActivity extends AppCompatActivity {
 
                 controller.limpar();
             }
-            
+
         });
-        
+
         btnFinalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">ListaVip</string>
-    <string name="intencao_optativa">Intenção de Disciplina Optativa</string>
-    <string name="txt_hint_nome">Nome</string>
-    <string name="txt_hint_matricula">Matricula</string>
-    <string name="txt_hint_curso">Curso</string>
-    <string name="txt_hint_telefone">Telefone</string>
-    <string name="txt_button_limpar">LIMPAR</string>
-    <string name="txt_button_salvar">SALVAR</string>
-    <string name="txt_button_finalizar">FINALIZAR</string>
-    <string name="txt_selecione_curso">Selecione a disciplina:</string>
+    <string name="intencao_optativa" translatable="false">Intenção de Disciplina Optativa</string>
+    <string name="txt_hint_nome" translatable="false">Nome</string>
+    <string name="txt_hint_matricula" translatable="false">Matricula</string>
+    <string name="txt_hint_curso" translatable="false">Curso</string>
+    <string name="txt_hint_telefone" translatable="false">Telefone</string>
+    <string name="txt_button_limpar" translatable="false">LIMPAR</string>
+    <string name="txt_button_salvar" translatable="false">SALVAR</string>
+    <string name="txt_button_finalizar" translatable="false">FINALIZAR</string>
+    <string name="txt_selecione_curso" translatable="false">Selecione a disciplina:</string>
 
 </resources>
